@@ -6,7 +6,8 @@ import './index.css'
 //import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
 //import { FocusScreen } from './04-useRef/FocusScreen'
 //import { Memorize } from './05-memos/Memorize'
-import { MemoHook } from './05-memos/MemoHook'
+//import { MemoHook } from './05-memos/MemoHook'
+import { CallBackHook } from './05-memos/CallBackHook'
 //import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
 //import { CounterApp } from './01-useState/CounterApp'
 //import { HooksApp } from './HooksApp'
@@ -15,6 +16,6 @@ import { MemoHook } from './05-memos/MemoHook'
 createRoot(document.getElementById('root')).render(
   //<StrictMode>
     //<FormWithCustomHook/>
-    <MemoHook/>
+    <CallBackHook/>
   //</StrictMode>,
 )
