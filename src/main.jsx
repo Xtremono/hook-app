@@ -7,7 +7,8 @@ import './index.css'
 //import { FocusScreen } from './04-useRef/FocusScreen'
 //import { Memorize } from './05-memos/Memorize'
 //import { MemoHook } from './05-memos/MemoHook'
-import { CallBackHook } from './05-memos/CallBackHook'
+//import { CallBackHook } from './05-memos/CallBackHook'
+import { Padre } from './07-tarea-memo/Padre'
 //import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
 //import { CounterApp } from './01-useState/CounterApp'
 //import { HooksApp } from './HooksApp'
@@ -16,6 +17,6 @@ import { CallBackHook } from './05-memos/CallBackHook'
 createRoot(document.getElementById('root')).render(
   //<StrictMode>
     //<FormWithCustomHook/>
-    <CallBackHook/>
+    <Padre/>
   //</StrictMode>,
 )
