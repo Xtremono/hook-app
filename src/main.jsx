@@ -8,15 +8,15 @@ import './index.css'
 //import { Memorize } from './05-memos/Memorize'
 //import { MemoHook } from './05-memos/MemoHook'
 //import { CallBackHook } from './05-memos/CallBackHook'
-import { Padre } from './07-tarea-memo/Padre'
+import { Padre } from './06-tarea-memo/Padre'
 //import { CounterWithCustomHook } from './01-useState/CounterWithCustomHook'
 //import { CounterApp } from './01-useState/CounterApp'
 //import { HooksApp } from './HooksApp'
+import './07-useReducer/intro-reducer';
 
-
-createRoot(document.getElementById('root')).render(
+//createRoot(document.getElementById('root')).render(
   //<StrictMode>
     //<FormWithCustomHook/>
-    <Padre/>
+  //  <Padre/>
   //</StrictMode>,
-)
+//)
